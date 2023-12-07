@@ -134,7 +134,7 @@ main .container .t-img img{
 }
 
 .subMain .container .wrap .card1{
-    background-image: url(/images/samsung-img2.jpg);
+    background-image: url(samsung-img2.jpg);
     width: 652px;
     height: 300px;
     border-radius: 20px;
@@ -169,7 +169,7 @@ main .container .t-img img{
 }
 
 .subMain .container .wrap2 .card2{
-    background-image: url(/images/samsung-img3.jpg);
+    background-image: url(samsung-img3.jpg);
     width: 204px;
     height: 300px;
     border-radius: 20px;
@@ -193,7 +193,7 @@ main .container .t-img img{
 }
 
 .subMain .container .wrap2 .card3{
-    background-image: url(/images/samsung-img4.jpg);
+    background-image: url(samsung-img4.jpg);
     width: 204px;
     height: 300px;
     border-radius: 20px;
@@ -216,7 +216,7 @@ main .container .t-img img{
 }
 
 .subMain .container .wrap2 .card4{
-    background-image: url(/images/samsung-img5.jpg);
+    background-image: url(samsung-img5.jpg);
     width: 204px;
     height: 300px;
     border-radius: 20px;
@@ -243,7 +243,7 @@ main .container .t-img img{
 }
 
 .subMain .s-container .card{
-    background-image: url(/images/samsung-img1.jpg);
+    background-image: url(samsung-img1.jpg);
     width: 316px;
     height: 620px;
     border-radius: 20px;
