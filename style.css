@@ -1,0 +1,277 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER NAVBAR START */
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .mainNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .mainNav ul{
+    padding: 0;
+}
+
+header nav .mainNav ul li {
+    list-style: none;
+    margin: 0 30px 0 30px;
+}
+
+header nav .mainNav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
+header nav .mainNav ul li a:hover{
+    color: #3081D0;
+    border-bottom: 1px solid #3081D0;
+    transition: 0.1s ease-in-out;
+}
+
+/* HEADER NAVBAR END */
+
+/* MAIN CONTENT START */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 300px;
+}
+
+main .container .title h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+main .container .title a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.654);
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out ;
+}
+
+main .container .title a:hover{
+    background-color: black;
+    color: white;
+}
+
+main .container .t-img{
+    margin-left: 50px;
+}
+
+main .container .t-img img{
+    width: 850px;
+    height: 800px;
+}
+
+.about{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+}
+
+.about p{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 14px;
+}
+
+.subMain{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-wrap: wrap;
+}
+
+.subMain .container, .s-container{
+    margin-bottom: 50px;
+}
+
+.subMain .container .wrap .card1{
+    background-image: url(/images/samsung-img2.jpg);
+    width: 652px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in-out;
+    filter: saturate(1);
+    cursor: pointer;
+}
+
+.subMain .container .wrap .card1 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px 23px;
+    margin: 0;
+    font-weight: 500;
+    width: 180px;
+}
+
+.subMain .container .wrap .card1:hover{
+    transform: scale(105%);
+    filter: saturate(2);
+}
+
+.subMain .container .wrap2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.subMain .container .wrap2 .card2{
+    background-image: url(/images/samsung-img3.jpg);
+    width: 204px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.subMain .container .wrap2 .card2 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 14px 13px;
+    margin: 0;
+    font-weight: 500;
+    width: 120px;
+    filter: invert(1);
+}
+
+.subMain .container .wrap2 .card2:hover{
+    transform: scale(105%);
+}
+
+.subMain .container .wrap2 .card3{
+    background-image: url(/images/samsung-img4.jpg);
+    width: 204px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.subMain .container .wrap2 .card3 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 14px 13px;
+    margin: 0;
+    font-weight: 500;
+    width: 120px;
+}
+
+.subMain .container .wrap2 .card3:hover{
+    transform: scale(105%);
+}
+
+.subMain .container .wrap2 .card4{
+    background-image: url(/images/samsung-img5.jpg);
+    width: 204px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.subMain .container .wrap2 .card4 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 14px 13px;
+    margin: 0;
+    font-weight: 500;
+    width: 120px;
+}
+
+.subMain .container .wrap2 .card4:hover{
+    transform: scale(105%);
+}
+
+.subMain .s-container{
+    margin-left: 20px;
+}
+
+.subMain .s-container .card{
+    background-image: url(/images/samsung-img1.jpg);
+    width: 316px;
+    height: 620px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.subMain .s-container .card p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 14px 13px;
+    margin: 0;
+    font-weight: 500;
+    width: 120px;
+}
+
+.subMain .s-container .card:hover{
+    transform: scale(105%);
+}
+
+/* MAIN CONTENT END */
+/* FOOTER START */
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER END */
